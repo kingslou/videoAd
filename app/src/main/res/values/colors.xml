@@ -1,6 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#E9262E</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+
+    <color name="gradient_startColor">@color/colorPrimary</color>
+    <color name="gradient_centerColor">#e98375</color>
+    <color name="gradient_endColor">#f2bb94</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_little">#EBEBEB</color>
+    <color name="white_50">#3fffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#3f000000</color>
+    <color name="black_20">#20000000</color>
+    <color name="text_black">#333333</color>
+    <color name="text_black_little">#999999</color>
+    <color name="blue">#2196F3</color>
+    <color name="green_label">#5ABEBC</color>
+    <color name="blue_press">#FF134E7C</color>
+    <color name="blue_material">#03a9f4</color>
+    <color name="green">#ff4f8c0b</color>
+    <color name="red">#E9262E</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#ff5b5a5a</color>
+    <color name="dark_gray">#EBEBEB</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="commen_bg_gray">#F5F5F5</color>
+    <color name="base_press_color">#ECCECF</color>
+    <color name="detail_title_color">#444444</color>
+
+    <color name="facebook_color">#2E4483</color>
+    <color name="facebook_color_little">#2E4463</color>
+
+    <color name="listview_show_tip_color">@color/main_tab_unselectcolor</color>
+    <color name="listview_show_tip_txt_color">#268ed7</color>
+
+    <color name="main_text_color">#999999</color>
+    <color name="main_tab_unselectcolor">#e4e5e4</color>
+
+    <color name="about_bg_color">#E7E9EA</color>
+
+    <color name="settings_bg">#FFFFFF</color>
+    <color name="settings_click_bg">#e5e5e5</color>
+
+    <color name="newslistview_dividercolor">#ffdcdcdc</color>
+
+    <color name="newslistview_dividercolor_new">#eee</color>
+
+    <color name="divider_color">#DBDBDB</color>
+    <color name="drawer_divider_color">#e5e5e5</color>
+
+    <color name="newsdetail_toolbar_background">@color/white</color>
+    <color name="newsdetail_bottom_bg">#E6E9E9</color>
+
+
+    <color name="favourite_normal_color">#999999</color>
+    <color name="favourite_select_color">#fddd05</color>
+
+    <color name="like_normal_color">#999999</color>
+    <color name="like_select_color">#f9e24c</color>
+    <color name="like_comment_normal_color">#ff676e</color>
+    <color name="like_comment_select_color">#999999</color>
+
+    <color name="browser_color">#999999</color>
+
+    <color name="slide_1">#3388c6</color>
+    <color name="slide_2">#fb9c25</color>
+    <color name="slide_3">#5ab55d</color>
+    <color name="slide_4">#e94033</color>
+
+    <color name="radio_color">#6d6d6d</color>
+    <color name="radio_checked_color">@color/colorPrimary</color>
+
+    <color name="interest_txt_n">#999999</color>
+
+    <color name="interest_btn_color">#999999</color>
+
+    <!--心情表情颜色-->
+    <color name="mood_happy_color">#41be00</color>
+    <color name="mood_sad_color">#ea6a00</color>
+    <color name="mood_meh_color">#ffc700</color>
+    <color name="mood_angry_color">#c20600</color>
+    <color name="mood_default_color">#bbbbbb</color>
+
+    <color name="keyword_n_color">#cccccc</color>
+    <color name="keyword_p_color">#fedd04</color>
+
+    <color name="selectinterest_halfredcolor">#99e9262e</color>
+    <color name="selectinterest_halfgraycolor">#E6999999</color>
+    <color name="selectinterest_halfblackcolor">#66000000</color>
+
+    <color name="tutorial_buttonTextColor">#ffffff</color>
+    <color name="tutorial_subtitleTextColor">#ffffff</color>
+    <color name="tutorial_titleTextColor">#ffffff</color>
+    <!--Following的背景颜色  -->
+    <color name="bg_following">#eaeaea</color>
+
+    <!--字体的color -->
+    <color name="text_color_333">#333</color>
+    <color name="text_color_666">#666</color>
+    <color name="text_color_999">#999</color>
+    <color name="text_color_ddd">#dddddd</color>
+    <color name="text_color_ccc">#ccc</color>
+    <color name="main_text_select">#e9262e</color>
+    <color name="line_color">#e8e8e8</color>
+
+    <color name="line_bottom_promotion">#cccccc</color>
+
+    <color name="add_snipster">#999999</color>
+    <color name="news_label_red">#BC242C</color>
+    <color name="news_label_blue">#1B4196</color>
+
+    <color name="sexlayout_bgcolor">#F5F5F5</color>
+    <color name="female_circle_bg">#Fa9aD5</color>
+    <color name="male_circle_bg">#9AC7FA</color>
+    <color name="fillet_btn_press">#BA1E23</color>
+    <color name="fillet_btn_disable">#7FE9262E</color>
+    <color name="text_title_color">#5C5C5C</color>
+
+    <color name="layout_selectinterest_bg">#F5F5F5</color>
+
+    <color name="table_title_new_color">#424242</color>
+
+    <color name="channel_status_bar_color">#FAFAFA</color>
+
+    <color name="text_edit_channel_color">#424242</color>
+
+    <!--转发的内容区-白天 -->
+    <color name="retweet_nor_bg">#f7f7f7</color><!--微博的普通背景颜色-->
+    <color name="retweet_highlight_bg">#e2e1e1</color><!--微博的按压状态下的背景颜色-->
+    <color name="home_retweet_weiboitem_font">#5d5d5d</color><!--转发内容中的字体颜色-->
+    <color name="home_retweet_weiboitem_bg">#f7f7f7</color><!--转发内容中的背景颜色-->
+
+    <!--显示微博转发数，评论数，赞数的bar-->
+    <color name="commentbar_bg">#FFFFFF</color><!--普通背景颜色-->
+    <color name="commentbar_highlight_bg">#f4f4f4</color><!--press的背景颜色-->
+    <color name="commentbar_top_drive">#f2f2f2</color><!--顶部的分割线-->
+    <color name="commentbar_vertical_drive">#f4f4f4</color><!--竖直的分割线-->
+    <color name="text_content_keyword">#507daf</color><!--关键词的颜色-->
+
+    <color name="bg_wemedia_top_title">#EEFAFAFA</color><!--微头条头部的颜色-->
+
+    <color name="text_followed_color">#8F8F8F</color> <!-- foollow后的字体颜色   -->
+    <color name="term_policy_text_color">#2690E9</color> <!-- foollow后的字体颜色   -->
+
+    <color name="text_contact_name_color">#878787</color>
+
+    <color name="col_mul_pic_bg">#85000000</color>
+
+    <color name="text_message_color">#424242</color>
+
+    <color name="video_title_bg">#AD000000</color>
+
+
 </resources>
