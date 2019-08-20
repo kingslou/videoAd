@@ -7,18 +7,101 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-
-      />
-
-
-    <FrameLayout
-        android:id="@+id/rootAd"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></FrameLayout>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                />
+
+
+            <FrameLayout
+                android:id="@+id/rootAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_100"
+                android:text="Hello World!"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
 
 
 

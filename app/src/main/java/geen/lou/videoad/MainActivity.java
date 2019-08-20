@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         if(PermissionsUtils.hasPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)){
             DemoAdBean mediaAdBean = new DemoAdBean();
 
-
             mediaAdBean.setAds_title("test");
 
             mediaAdBean.setMaterial_url("http://vfx.mtime.cn/Video/2019/03/12/mp4/190312143927981075.mp4");
